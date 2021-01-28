@@ -8,7 +8,7 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1001;
+  z-index: 1002;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px 0px;
 }

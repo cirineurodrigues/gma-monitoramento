@@ -6,7 +6,7 @@ export const StyledMobileMenu = styled.div`
   height: calc(100vh - 80px);
   position: fixed;
   top: 80px;
-  z-index: 1000;
+  z-index: 1001;
   transition: 0.3s ease;
   left: ${({ isMenuClosed }) => (isMenuClosed ? "100%" : "0")};
   background-color: #fff;
