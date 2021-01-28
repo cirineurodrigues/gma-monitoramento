@@ -44,19 +44,18 @@ export const TextDiv = styled.div`
   }
 
   span {
+    padding: 5px 10px;
     text-align: center;
     color: #141414;
   }
 
   .mainText {
-    padding: 10px 15px;
     margin: 5px 0;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     background-color: #4aab67;
   }
 
   .text {
-    padding: 5px 10px;
     font-size: 1.1rem;
     font-weight: 550;
     background-color: #8ec4b8;

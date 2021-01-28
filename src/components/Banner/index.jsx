@@ -45,7 +45,7 @@ const Banner = () => {
       >
         <ImageDiv test={licenciamentoAmbiental}>
           <TextDiv>
-            <span className="mainText">LICENCAMENTO AMBIENTAL</span>
+            <span className="mainText">LICENCIAMENTO AMBIENTAL</span>
             <span className="text">Cuidamos bem do Meio Ambiente</span>
           </TextDiv>
         </ImageDiv>
