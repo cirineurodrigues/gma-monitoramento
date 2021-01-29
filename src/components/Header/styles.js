@@ -99,7 +99,6 @@ export const StyledHeader = styled.header`
       margin-left: 8%;
       list-style: none;
       font-size: 1.2rem;
-      color: #9E9E9E;
       cursor: pointer;
     }
 

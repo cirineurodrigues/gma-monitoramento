@@ -29,6 +29,10 @@ export const ImageDiv = styled.div`
   background-image: ${(props) => `url(${props.test})`};
   background-position: center;
   background-size: cover;
+
+  @media screen and (min-width: 768px) {
+    align-items: center;
+  }
 `;
 
 export const TextDiv = styled.div`
@@ -38,10 +42,6 @@ export const TextDiv = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 15%;
-
-  @media screen and (min-width: 768px) {
-    margin-bottom: 5%;
-  }
 
   span {
     padding: 5px 10px;
@@ -59,5 +59,23 @@ export const TextDiv = styled.div`
     font-size: 1.1rem;
     font-weight: 550;
     background-color: #8ec4b8;
+  }
+
+  @media screen and (min-width: 768px) {
+    align-items: flex-end;
+    margin-bottom: 0;
+    margin-right: 2.5%;
+
+    span {
+      text-align: right;
+    }
+
+    .mainText {
+      font-size: 2rem;
+    }
+
+    .text {
+      font-size: 1.5rem;
+    }
   }
 `;
