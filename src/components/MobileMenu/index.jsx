@@ -6,7 +6,7 @@ const MobileMenu = ({ isMenuClosed, setClosed, menuItems }) => {
       <nav>
         <ul>
           {menuItems.map((value, index) => (
-            <li key={index} onClick={{ setClosed }}>
+            <li key={index} onClick={setClosed}>
               {value}
             </li>
           ))}

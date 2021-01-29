@@ -22,7 +22,7 @@ const Banner = () => {
     <Container>
       <Carousel
         additionalTransfrom={0}
-        arrows
+        arrows={false}
         autoPlay
         autoPlaySpeed={5000}
         centerMode={false}
@@ -63,7 +63,7 @@ const Banner = () => {
         </ImageDiv>
       </Carousel>
       <svg
-        class="slant"
+        className="slant"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"

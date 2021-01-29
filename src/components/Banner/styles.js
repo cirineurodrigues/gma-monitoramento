@@ -46,7 +46,6 @@ export const TextDiv = styled.div`
   span {
     padding: 5px 10px;
     text-align: center;
-    color: #141414;
   }
 
   .mainText {

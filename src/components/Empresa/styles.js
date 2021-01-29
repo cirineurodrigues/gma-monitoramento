@@ -12,10 +12,10 @@ export const Container = styled.section`
 
   h2 {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 400;
   }
   hr {
-    margin: 20px 0;
+    margin: 15px 0;
   }
 
   p {
