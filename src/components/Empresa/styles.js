@@ -22,7 +22,6 @@ export const Container = styled.section`
     text-align: justify;
     text-indent: 3rem;
     line-height: 1.5;
-    margin-bottom: 40px;
   }
 
   @media screen and (min-width: 768px) {
@@ -37,9 +36,10 @@ export const CardsContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin: 60px 0 20px;
 
   @media screen and (min-width: 768px) {
-    margin-bottom: 40px;
+    margin: 60px 0;
   }
 `;
 
@@ -52,10 +52,10 @@ export const ButtonContainer = styled.div`
   button {
     background-color: #fff;
     outline: none;
-    padding: 0.5% 2%;
+    padding: 5% 20%;
     border: 2px solid #4aab67;
     color: #4aab67;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
   }
 
@@ -63,5 +63,11 @@ export const ButtonContainer = styled.div`
     transition: 0.3s;
     background-color: #4aab67;
     color: #fff;
+  }
+
+  @media screen and (min-width: 768px) {
+    button {
+      padding: 0.5% 2%;
+    }
   }
 `;

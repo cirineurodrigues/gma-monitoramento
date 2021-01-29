@@ -30,7 +30,7 @@ export const IconContainer = styled.div`
 export const TextContainer = styled.div`
   h1 {
     color: #4aab67;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 15px 0;
   }
@@ -38,6 +38,5 @@ export const TextContainer = styled.div`
   p {
     text-align: center !important;
     text-indent: 0 !important;
-    margin: 0 !important;
   }
 `;
