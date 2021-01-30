@@ -2,6 +2,7 @@ import { Container, ImageDiv, TextDiv } from "./styles";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Fade from "react-reveal/Fade";
 
 import licenciamentoAmbiental from "../../assets/licenciamentoAmbiental.jpg";
 import desenvolvimentoSustentavel from "../../assets/desenvolvimentoSustentavel.jpg";
@@ -44,10 +45,12 @@ const Banner = () => {
         swipeable
       >
         <ImageDiv test={licenciamentoAmbiental}>
-          <TextDiv>
-            <span className="mainText">LICENCIAMENTO AMBIENTAL</span>
-            <span className="text">Cuidamos bem do Meio Ambiente</span>
-          </TextDiv>
+          <Fade left>
+            <TextDiv>
+              <span className="mainText">LICENCIAMENTO AMBIENTAL</span>
+              <span className="text">Cuidamos bem do Meio Ambiente</span>
+            </TextDiv>
+          </Fade>
         </ImageDiv>
         <ImageDiv test={desenvolvimentoSustentavel}>
           <TextDiv>

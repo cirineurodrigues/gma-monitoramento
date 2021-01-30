@@ -1,7 +1,6 @@
 import Fade from "react-reveal/Fade";
-import { FaGlobeAmericas } from "react-icons/fa";
+import { FaGlobeAmericas, FaLeaf } from "react-icons/fa";
 import { SiAudiomack } from "react-icons/si";
-import { FaLeaf } from "react-icons/fa";
 import { useHistory } from "react-router-dom";
 
 import { Container, CardsContainer, ButtonContainer } from "./styles";

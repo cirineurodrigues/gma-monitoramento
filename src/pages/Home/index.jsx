@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import Empresa from "../../components/Empresa";
 import ClientsCarousel from "../../components/ClientsCarousel";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -9,7 +10,8 @@ const Home = () => {
       <Header />
       <Banner />
       <Empresa />
-      <ClientsCarousel/>
+      <ClientsCarousel />
+      <Footer />
     </>
   );
 };

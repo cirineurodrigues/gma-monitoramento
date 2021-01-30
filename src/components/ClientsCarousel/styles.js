@@ -21,6 +21,6 @@ export const ImageDiv = styled.div`
   align-items: center;
 
   img {
-    width: 200px;
+    cursor: not-allowed;
   }
 `;

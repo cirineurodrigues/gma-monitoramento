@@ -63,7 +63,7 @@ export const TextDiv = styled.div`
   @media screen and (min-width: 768px) {
     align-items: flex-end;
     margin-bottom: 0;
-    margin-right: 2.5%;
+    padding-right: 3vw;
 
     span {
       text-align: right;
