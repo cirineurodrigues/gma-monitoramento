@@ -59,14 +59,22 @@ export const LinksContainer = styled.div`
     margin: 0 10px;
     font-size: 1.2rem;
     color: #303030;
-    background-color: #4aab67;
+    background: linear-gradient(
+    0deg,
+    rgba(109, 185, 132, 1) 0%,
+    rgba(74, 171, 103, 1) 100%
+  );
     border-radius: 50%;
   }
 `;
 
 export const DevelopedBy = styled.div`
   width: 100%;
-  background-color: #4aab67;
+  background: linear-gradient(
+    0deg,
+    rgba(109, 185, 132, 1) 0%,
+    rgba(74, 171, 103, 1) 100%
+  );
 
   h1 {
     padding: 2vh;

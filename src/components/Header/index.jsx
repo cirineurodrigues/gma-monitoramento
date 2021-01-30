@@ -13,7 +13,8 @@ const Header = () => {
   const setClosed = () => {
     setIsMenuClosed(!isMenuClosed);
   };
-  const menuItems = ["HOME", "SERVIÇOS", "CLIENTES", "CONTATO"];
+  const menuItems = ["Home", "Serviços", "Clientes", "Contato"];
+  const paths = ["/", "/servicos", "/clientes", "/contato"];
 
   return (
     <>
@@ -28,7 +29,9 @@ const Header = () => {
             </div>
             <ul>
               {menuItems.map((value, index) => (
-                <li key={index}>{value}</li>
+                <li key={index} onClick={() => history.push(paths[index])}>
+                  {value}
+                </li>
               ))}
             </ul>
           </nav>
@@ -38,6 +41,7 @@ const Header = () => {
         isMenuClosed={isMenuClosed}
         setClosed={setClosed}
         menuItems={menuItems}
+        paths={paths}
       />
     </>
   );

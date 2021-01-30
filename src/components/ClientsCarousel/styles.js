@@ -4,7 +4,11 @@ export const Container = styled.div`
   width: 100%;
   padding: 20px 0;
   margin-bottom: 60px;
-  background-color: #4aab67;
+  background: linear-gradient(
+    0deg,
+    rgba(109, 185, 132, 1) 0%,
+    rgba(74, 171, 103, 1) 100%
+  );
 
   h1 {
     padding-bottom: 10px;

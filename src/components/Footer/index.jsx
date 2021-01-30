@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   const history = useHistory();
-  const menuItems = ["Home", "Serviços", "Clientes", "Contato"];
+  const menuItems = ["HOME", "SERVIÇOS", "CLIENTES", "CONTATO"];
   const paths = ["/", "/servicos", "/clientes", "/contato"];
   return (
     <>
