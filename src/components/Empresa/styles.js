@@ -50,7 +50,7 @@ export const ButtonContainer = styled.div`
   align-items: center;
 
   button {
-    background-color: #fff;
+    background-color: #f9f9f9;
     outline: none;
     padding: 5% 20%;
     border: 2px solid #4aab67;

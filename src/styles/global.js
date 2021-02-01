@@ -14,7 +14,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
     html {
         font: 16px Roboto, sans-serif;
-        background-color: #fff;
+        background-color: #f9f9f9;
         color: #303030;
     }
 `;

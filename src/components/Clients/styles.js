@@ -39,5 +39,13 @@ export const ImagesContainer = styled.div`
 
   img {
     padding: 20px;
+    margin: 0 auto;
+    cursor: not-allowed;
+  }
+
+  img:hover {
+    transition: 0.3s;
+    padding: 0;
+    width: 240px;
   }
 `;

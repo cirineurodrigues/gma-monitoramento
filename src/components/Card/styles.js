@@ -7,6 +7,7 @@ export const StyledCard = styled.div`
   border-radius: 20px;
   margin-bottom: 40px;
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
 
   @media screen and (min-width: 768px) {
     width: 30%;
