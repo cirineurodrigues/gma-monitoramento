@@ -12,6 +12,7 @@ const MobileMenu = ({ isMenuClosed, setClosed, menuItems, paths }) => {
             <li
               key={index}
               onClick={() => {
+                window.scroll({ top: 0 });
                 history.push(paths[index]);
                 setClosed();
               }}

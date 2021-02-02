@@ -12,7 +12,7 @@ const Empresa = () => {
   return (
     <Container>
       <Fade>
-        <h1>A EMPRESA</h1>
+        <h1>A Empresa</h1>
         <h2>Proporcionamos inovação e ideias para atender você</h2>
         <hr />
         <p>

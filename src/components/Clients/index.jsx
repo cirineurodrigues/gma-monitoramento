@@ -21,7 +21,7 @@ const Clients = () => {
   return (
     <Container>
       <Fade>
-        <h1>NOSSOS CLIENTES</h1>
+        <h1>Nossos Clientes</h1>
         <h2>Parceiros que confiam na gente</h2>
         <hr />
       </Fade>

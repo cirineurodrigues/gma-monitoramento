@@ -1,16 +1,21 @@
 import styled from "styled-components";
 
 export const StyledCard = styled.div`
-  width: 100%;
-  padding: 5% 1%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-basis: 1;
+  padding: 1%;
   border-bottom: 5px solid #4aab67;
   border-radius: 20px;
   margin-bottom: 40px;
-  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 8px 0px rgba(184, 184, 184, 1);
   background-color: #fff;
 
   @media screen and (min-width: 768px) {
-    width: 30%;
+    flex-basis: 30%;
     margin: 0;
   }
 
@@ -33,7 +38,7 @@ export const TextContainer = styled.div`
     color: #4aab67;
     font-size: 1.2rem;
     text-align: center;
-    padding: 15px 0;
+    padding-bottom: 15px;
   }
 
   p {

@@ -11,8 +11,6 @@ export const StyledHeader = styled.header`
   z-index: 1002;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px 0px;
-}
-
 
   ul,
   li,
@@ -49,7 +47,7 @@ export const StyledHeader = styled.header`
   .stripe {
     width: 100%;
     height: 2.5px;
-    background-color: #9E9E9E;
+    background-color: #9e9e9e;
   }
 
   .stripe:first-child {
@@ -58,9 +56,9 @@ export const StyledHeader = styled.header`
       isMenuClosed ? "translateY(0)" : "translateY(9px) rotateZ(-45deg)"};
   }
 
-  .stripe:nth-child(2) {
+  .stripe:nth-of-type(2) {
     transition: 0.3s ease;
-    background-color: #4AAB67;
+    background-color: #4aab67;
     transform: translateY(7px);
     opacity: ${({ isMenuClosed }) => (isMenuClosed ? "1" : "0")};
   }
@@ -103,8 +101,8 @@ export const StyledHeader = styled.header`
     }
 
     li:hover {
-      transition: .3s;
-      color: #4AAB67
+      transition: 0.3s;
+      color: #4aab67;
     }
   }
 `;

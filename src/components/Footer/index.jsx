@@ -1,6 +1,7 @@
 import { useHistory } from "react-router-dom";
 
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 import {
   StyledFooter,
@@ -30,6 +31,13 @@ const Footer = () => {
             rel="noreferrer"
           >
             <FaFacebookF />
+          </a>
+          <a
+            href="https://www.facebook.com/gmamonitoramento/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IoLogoWhatsapp />
           </a>
         </LinksContainer>
         <FooterMenu>

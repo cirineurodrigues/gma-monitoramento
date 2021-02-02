@@ -29,7 +29,13 @@ const Header = () => {
             </div>
             <ul>
               {menuItems.map((value, index) => (
-                <li key={index} onClick={() => history.push(paths[index])}>
+                <li
+                  key={index}
+                  onClick={() => {
+                    window.scroll({ top: 0 });
+                    history.push(paths[index]);
+                  }}
+                >
                   {value}
                 </li>
               ))}
