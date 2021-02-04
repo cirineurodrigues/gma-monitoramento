@@ -13,8 +13,8 @@ const Header = () => {
   const setClosed = () => {
     setIsMenuClosed(!isMenuClosed);
   };
-  const menuItems = ["Home", "Serviços", "Clientes", "Contato"];
-  const paths = ["/", "/servicos", "/clientes", "/contato"];
+  const menuItems = ["Sobre", "Serviços", "Clientes", "Contato"];
+  const paths = ["/sobre", "/servicos", "/clientes", "/contato"];
 
   return (
     <>

@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
 
   img {
-    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0 auto;
   }
 
@@ -23,6 +23,11 @@ export const TextContainer = styled.div`
 
   h2 {
     text-align: center;
+  }
+
+  p {
+    text-align: center;
+    text-indent: 0;
   }
 
   ul {
@@ -43,8 +48,8 @@ export const TextContainer = styled.div`
 `;
 
 export const Separator = styled.div`
-  width: 30%;
-  min-width: 200px;
+  width: 15%;
+  min-width: 100px;
   height: 3px;
   margin: 15px auto;
   background-color: #4aab67;

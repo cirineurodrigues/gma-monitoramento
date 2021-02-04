@@ -12,8 +12,8 @@ import {
 
 const Footer = () => {
   const history = useHistory();
-  const menuItems = ["HOME", "SERVIÇOS", "CLIENTES", "CONTATO"];
-  const paths = ["/", "/servicos", "/clientes", "/contato"];
+  const menuItems = ["SOBRE", "SERVIÇOS", "CLIENTES", "CONTATO"];
+  const paths = ["/sobre", "/servicos", "/clientes", "/contato"];
   return (
     <>
       <StyledFooter>
