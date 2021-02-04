@@ -60,10 +60,10 @@ export const LinksContainer = styled.div`
     font-size: 1.2rem;
     color: #303030;
     background: linear-gradient(
-    0deg,
-    rgba(109, 185, 132, 1) 0%,
-    rgba(74, 171, 103, 1) 100%
-  );
+      0deg,
+      rgba(109, 185, 132, 1) 0%,
+      rgba(74, 171, 103, 1) 100%
+    );
     border-radius: 50%;
   }
 `;

@@ -22,7 +22,7 @@ export const StyledMobileMenu = styled.div`
 
   ul {
     width: 80%;
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

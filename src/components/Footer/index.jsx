@@ -12,8 +12,8 @@ import {
 
 const Footer = () => {
   const history = useHistory();
-  const menuItems = ["SOBRE", "SERVIÇOS", "CLIENTES", "CONTATO"];
-  const paths = ["/sobre", "/servicos", "/clientes", "/contato"];
+  const menuItems = ["HOME", "SOBRE", "SERVIÇOS", "CLIENTES", "CONTATO"];
+  const paths = ["/", "/sobre", "/servicos", "/clientes", "/contato"];
   return (
     <>
       <StyledFooter>
@@ -43,7 +43,13 @@ const Footer = () => {
         <FooterMenu>
           <ul>
             {menuItems.map((value, index) => (
-              <li key={index} onClick={() => history.push(paths[index])}>
+              <li
+                key={index}
+                onClick={() => {
+                  window.scroll({ top: 0 });
+                  history.push(paths[index]);
+                }}
+              >
                 {value}
               </li>
             ))}

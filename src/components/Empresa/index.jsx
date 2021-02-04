@@ -53,7 +53,12 @@ const Empresa = () => {
           </CardsContainer>
         </Fade>
         <ButtonContainer>
-          <button onClick={() => history.push("/servicos")}>
+          <button
+            onClick={() => {
+              window.scroll({ top: 0 });
+              history.push("/servicos");
+            }}
+          >
             Nossos Serviços
           </button>
         </ButtonContainer>
