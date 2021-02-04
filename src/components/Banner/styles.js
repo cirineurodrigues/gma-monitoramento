@@ -12,7 +12,7 @@ export const Container = styled.section`
     position: absolute;
     bottom: 0;
     left: 0;
-    fill: #fff;
+    fill: #f9f9f9;
   }
 `;
 
