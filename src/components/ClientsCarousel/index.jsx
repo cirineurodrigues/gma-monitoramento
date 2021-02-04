@@ -12,12 +12,10 @@ import superGasBras from "../../assets/supergasbras.png";
 import algar from "../../assets/algar.png";
 import syngenta from "../../assets/syngenta.png";
 import jbs from "../../assets/jbs.png";
-import monsanto from "../../assets/monsanto.png";
 import cargill from "../../assets/cargill.png";
 import cocaCola from "../../assets/cocacola.png";
 import brf from "../../assets/brf.png";
 import pifPaf from "../../assets/pifpaf.png";
-import italac from "../../assets/italac.png";
 
 const ClientsCarousel = () => {
   const responsive = {
@@ -98,9 +96,6 @@ const ClientsCarousel = () => {
             <img src={jbs} alt="Logo JBS" />
           </ImageDiv>
           <ImageDiv>
-            <img src={monsanto} alt="Logo Monsanto" />
-          </ImageDiv>
-          <ImageDiv>
             <img src={cargill} alt="Logo Cargill" />
           </ImageDiv>
           <ImageDiv>
@@ -111,9 +106,6 @@ const ClientsCarousel = () => {
           </ImageDiv>
           <ImageDiv>
             <img src={pifPaf} alt="Logo Pif-Paf" />
-          </ImageDiv>
-          <ImageDiv>
-            <img src={italac} alt="Logo Italac" />
           </ImageDiv>
         </Carousel>
       </Container>

@@ -25,11 +25,6 @@ export const TextContainer = styled.div`
     text-align: center;
   }
 
-  p {
-    text-align: center;
-    text-indent: 0;
-  }
-
   ul {
     padding: 10px 5% 0;
   }

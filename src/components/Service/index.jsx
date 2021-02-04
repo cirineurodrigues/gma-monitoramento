@@ -6,7 +6,9 @@ const Service = ({ title, text, list, image, alt, reverse = false }) => {
       <TextContainer>
         <h2>{title}</h2>
         <Separator />
-        <p>{text}</p>
+        {text.map((current, idx) => (
+          <p key={idx}>{current}</p>
+        ))}
         {list && (
           <ul>
             {list.map((current, idx) => (
