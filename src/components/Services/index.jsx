@@ -33,25 +33,23 @@ const Servicos = () => {
               "Metais classes I, II e III",
               "Fluoretos, Cianetos e Cloretos",
             ]}
-            image={inmetro}
-            alt="Logo do Inmetro"
           />
           <Service
             title="Partículas Totais em Suspensão - (PTS)"
-            text="A GMA utiliza Amostradores de Grande Volume (AGV) para determinar da concentração de Partículas Totais em Suspensão (PTS) no ar ambiente. Atende a metodologia ABNT NBR 9547 e a Resolução CONAMA 003(1990)."
+            text="A GMA utiliza Amostradores de Grande Volume (AGV) para determinar da concentração de Partículas Totais em Suspensão (PTS) no ar ambiente. (quebrar) Atende a metodologia ABNT NBR 9547:1997 e a Resolução CONAMA 491 de 1990."
             image={particula}
             alt="Aparelho de medição de particulas totais em suspenção"
             reverse
           />
           <Service
             title="Avaliação de Ruídos"
-            text="A GMA segue os padrões da norma NBR 10151(2000), que tratam da avaliação do ruído contínuo e externo as instalações do empreendimento visando o conforto da comunidade. Atende as legislações pertinentes em cada caso."
+            text="A GMA segue os padrões da norma NBR 10.151:2019, que tratam da avaliação do ruído contínuo e externo as instalações do empreendimento visando o conforto da comunidade. Atende as legislações pertinentes em cada caso."
             image={ruido}
             alt="Aparelho de medição de ruídos"
           />
           <Service
             title="Escala Ringelmann"
-            text="Determinar através da escala Ringelmann o grau de enegrecimento da fumaça de veículos ou chaminés. Utiliza-se um cartão de Índice de fumaça tipo Ringelmann reduzido, constituída de cinco padrões com variações uniformes de tonalidade entre o branco e o preto. Atende a metodologia NBR 6016(1986) e Portaria 85(1996) do IBAMA para veículos e CETESB L9.061 para chaminés."
+            text="Determinar através da escala Ringelmann o grau de enegrecimento da fumaça de veículos ou chaminés. Utiliza-se um cartão de Índice de fumaça tipo Ringelmann reduzido, constituída de cinco padrões com variações uniformes de tonalidade entre o branco e o preto. Atende a metodologia NBR 6.016:1986, Portaria IBAMA 85 de 1996 para veículos movidos à diesel e CETESB L9.061 de janeiro de 1979 para enegrecimento da fumaça emitida por fontes estacionárias."
             image={ringelmann}
             alt="Escala de Ringelmann"
             reverse

@@ -31,18 +31,18 @@ const About = () => {
             ambientais de seus parceiros.
           </p>
           <h3>
-            Laboratório de Ensaio acreditado pela Cgre de acordo com a ABNT NBR
-            ISO IEC 17025:2005, sob o número CRL 0520:
+            Laboratório de Ensaio acreditado pela CGCRE de acordo com a ABNT NBR
+            ISO IEC 17.025:2017, sob o número CRL 0520:{" "}
           </h3>
           <ul>
             <li>
-              Amostragem de Material Particulado em emissões atmosféricas de
-              dutos e chaminés de fontes estacionárias - método gravimétrico.
-            </li>
-            <li>
-              Determinação da taxa de Material Particulado em emissões
-              atmosféricas de dutos e chaminés de fontes estacionárias - método
-              gravimétrico.
+              <a
+                href="http://www.inmetro.gov.br/laboratorios/rble/detalhe_laboratorio.asp?nom_apelido=GMA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Verifique escopo da acreditação
+              </a>
             </li>
           </ul>
         </Fade>
