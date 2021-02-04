@@ -4,6 +4,7 @@ import paralax from "../../assets/paralax.jpg";
 
 export const StyledParalax = styled.section`
   width: 100vw;
+  max-width: 100%;
   height: 250px;
   display: flex;
   flex-direction: column;

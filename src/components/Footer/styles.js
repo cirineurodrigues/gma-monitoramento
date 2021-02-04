@@ -23,7 +23,7 @@ export const FooterMenu = styled.nav`
   width: 100%;
 
   ul {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -31,6 +31,7 @@ export const FooterMenu = styled.nav`
   }
 
   li {
+    font-size: 0.9rem;
     font-weight: 550;
     color: #fff;
     list-style: none;
@@ -43,8 +44,12 @@ export const FooterMenu = styled.nav`
   }
 
   @media screen and (min-width: 768px) {
+    li {
+      font-size: 1rem;
+    }
+
     ul {
-      width: 40%;
+      width: 50%;
     }
   }
 `;
