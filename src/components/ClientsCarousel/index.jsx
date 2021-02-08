@@ -16,6 +16,8 @@ import cargill from "../../assets/cargill.png";
 import cocaCola from "../../assets/cocacola.png";
 import brf from "../../assets/brf.png";
 import pifPaf from "../../assets/pifpaf.png";
+import paraTudo from "../../assets/paratudo.png";
+import mataBoi from "../../assets/mataboi.png";
 
 const ClientsCarousel = () => {
   const responsive = {
@@ -106,6 +108,12 @@ const ClientsCarousel = () => {
           </ImageDiv>
           <ImageDiv>
             <img src={pifPaf} alt="Logo Pif-Paf" />
+          </ImageDiv>
+          <ImageDiv>
+            <img src={paraTudo} alt="Logo Para Tudo Bebidas" />
+          </ImageDiv>
+          <ImageDiv>
+            <img src={mataBoi} alt="Logo Mata Boi" />
           </ImageDiv>
         </Carousel>
       </Container>

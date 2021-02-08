@@ -14,6 +14,8 @@ import cargill from "../../assets/cargill.png";
 import cocaCola from "../../assets/cocacola.png";
 import brf from "../../assets/brf.png";
 import pifPaf from "../../assets/pifpaf.png";
+import paraTudo from "../../assets/paratudo.png";
+import mataBoi from "../../assets/mataboi.png";
 
 const Clients = () => {
   return (
@@ -37,6 +39,8 @@ const Clients = () => {
           <img src={cocaCola} alt="Logo da Coca-Cola" />
           <img src={brf} alt="Logo da BRF" />
           <img src={pifPaf} alt="Logo da Pif-Paf Alimentos" />
+          <img src={paraTudo} alt="Logo da Para Tudo Bebidas" />
+          <img src={mataBoi} alt="Logo da Mata Boi" />
         </ImagesContainer>
       </Fade>
     </Container>

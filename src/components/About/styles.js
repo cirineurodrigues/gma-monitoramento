@@ -35,13 +35,11 @@ export const Container = styled.section`
   }
 
   @media screen and (min-width: 768px) {
+    width: 95%;
+    text-align: left;
+
     ul {
       padding: 0 2.5%;
     }
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 95%;
-    text-align: left;
   }
 `;
