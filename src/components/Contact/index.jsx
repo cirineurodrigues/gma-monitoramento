@@ -8,7 +8,6 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import { IoLogoWhatsapp } from "react-icons/io";
 
 import logo from "../../assets/logo.png";
 
