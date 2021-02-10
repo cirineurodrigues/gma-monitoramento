@@ -56,8 +56,8 @@ export const ContactContent = styled.div`
   a {
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     text-decoration: none;
     color: inherit;
   }
@@ -69,6 +69,6 @@ export const ContactContent = styled.div`
 
   .icon {
     font-size: 1.3rem;
-    padding: 0 1%;
+    padding: 0 0.5%;
   }
 `;

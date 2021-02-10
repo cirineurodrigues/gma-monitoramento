@@ -30,7 +30,7 @@ const Contact = () => {
                 rel="noreferrer"
               >
                 <GoLocation className="icon" /> R. Rio Grande do Norte, 2434 -
-                Umuarama, Uberlândia - MG
+                Umuarama, Uberlândia - MG - 38405-321
               </a>
             </li>
             <li>
@@ -49,7 +49,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <AiOutlineWhatsApp className="icon" /> (34) 9898-5342
+                <AiOutlineWhatsApp className="icon" /> (34) 99898-5342
               </a>
             </li>
           </ul>

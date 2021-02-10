@@ -40,7 +40,7 @@ const Empresa = () => {
             </Card>
             <Card
               title="Avaliação de Ruídos"
-              text="A GMA fixa as condições exigíveis, seguindo os padrões da norma NBR 10.151:2000 que trata da Avaliação do Ruído ao meio ambiente, ou as legislações pertinentes em cada caso."
+              text="A GMA fixa as condições exigíveis, seguindo os padrões da norma ABNT NBR 10.151:2000 que trata da Avaliação do Ruído ao meio ambiente, ou as legislações pertinentes em cada caso."
             >
               <SiAudiomack />
             </Card>

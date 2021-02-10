@@ -44,6 +44,7 @@ const About = () => {
                 Verifique escopo da acreditação
               </a>
             </li>
+            <li>Verifique certificado de acreditação</li>
           </ul>
         </Fade>
       </Container>

@@ -7,7 +7,6 @@ import { Container, ImageDiv } from "./styles";
 import start from "../../assets/start.png";
 import cajuba from "../../assets/cajuba.png";
 import copagaz from "../../assets/copagaz.png";
-import liquigas from "../../assets/liquigas.png";
 import superGasBras from "../../assets/supergasbras.png";
 import algar from "../../assets/algar.png";
 import syngenta from "../../assets/syngenta.png";
@@ -81,9 +80,6 @@ const ClientsCarousel = () => {
           </ImageDiv>
           <ImageDiv>
             <img src={copagaz} alt="Logo Copagaz" />
-          </ImageDiv>
-          <ImageDiv>
-            <img src={liquigas} alt="Logo Liquigás" />
           </ImageDiv>
           <ImageDiv>
             <img src={superGasBras} alt="Logo Super GásBras" />

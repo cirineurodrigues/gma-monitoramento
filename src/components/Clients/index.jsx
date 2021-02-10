@@ -5,7 +5,6 @@ import { Container, ImagesContainer } from "./styles";
 import start from "../../assets/start.png";
 import cajuba from "../../assets/cajuba.png";
 import copagaz from "../../assets/copagaz.png";
-import liquigas from "../../assets/liquigas.png";
 import superGasBras from "../../assets/supergasbras.png";
 import algar from "../../assets/algar.png";
 import syngenta from "../../assets/syngenta.png";
@@ -30,7 +29,6 @@ const Clients = () => {
           <img src={start} alt="Logo da Start" />
           <img src={cajuba} alt="Logo da Café Cajubá" />
           <img src={copagaz} alt="Logo da Copagaz" />
-          <img src={liquigas} alt="Logo da Liquigás" />
           <img src={superGasBras} alt="Logo da Super Gas Bras" />
           <img src={algar} alt="Logo da Algar" />
           <img src={syngenta} alt="Logo da Syngenta" />
