@@ -44,7 +44,14 @@ const About = () => {
                 Verifique escopo da acreditação
               </a>
             </li>
-            <li>Verifique certificado de acreditação</li>
+            <li>
+              <a
+                href={require("../../assets/certificate.pdf")}
+                download="certificate.pdf"
+              >
+                Verifique certificado de acreditação
+              </a>
+            </li>
           </ul>
         </Fade>
       </Container>
