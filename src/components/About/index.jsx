@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import { Container } from "./styles";
 
 import Paralax from "../Paralax";
+import pdf from "../../assets/certificate.pdf";
 
 const About = () => {
   return (
@@ -45,10 +46,7 @@ const About = () => {
               </a>
             </li>
             <li>
-              <a
-                href={require("../../assets/certificate.pdf")}
-                download="certificate.pdf"
-              >
+              <a href={pdf} download="Certificado de Acreditação GMA">
                 Verifique certificado de acreditação
               </a>
             </li>

@@ -55,7 +55,7 @@ const Footer = () => {
             ))}
           </ul>
         </FooterMenu>
-        <h1>&copy; 2015 GMA - Todos os direitos reservados</h1>
+        <h1>&copy; 2021 GMA - Todos os direitos reservados</h1>
       </StyledFooter>
       <DevelopedBy>
         <h1>
