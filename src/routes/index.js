@@ -9,11 +9,11 @@ import Contato from "../pages/Contato";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/sobre" component={Sobre} />
-      <Route path="/servicos" component={Servicos} />
-      <Route path="/clientes" component={Clientes} />
-      <Route path="/contato" component={Contato} />
+      <Route exact path="/sobre" component={Sobre} />
+      <Route exact path="/servicos" component={Servicos} />
+      <Route exact path="/clientes" component={Clientes} />
+      <Route exact path="/contato" component={Contato} />
+      <Route path="/" component={Home} />
     </Switch>
   );
 };
