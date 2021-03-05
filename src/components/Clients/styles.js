@@ -48,4 +48,8 @@ export const ImagesContainer = styled.div`
     padding: 0;
     width: 240px;
   }
+
+  @media screen and (min-width: 768px) {
+    min-height: 70vh;
+  }
 `;

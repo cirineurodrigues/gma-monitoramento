@@ -69,6 +69,6 @@ export const ContactContent = styled.div`
 
   .icon {
     font-size: 1.3rem;
-    padding-right: 1%;
+    padding-right: 5px;
   }
 `;
